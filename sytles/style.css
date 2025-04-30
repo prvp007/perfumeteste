@@ -1,0 +1,154 @@
+:root{
+    --color-one: #000000;
+    --color-two: #1DCD9F;
+    --color-three: #FFFFFF;
+    --color-four: #169976;
+    --color-five: #222222;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--color-one);
+}
+
+header{
+    background-color: var(--color-four);
+    width: 100%; 
+    height: 86px;
+}
+
+.home{
+    text-decoration: none;
+    color: var(--color-five);
+    font-size: 26px;
+    position: absolute;
+    left: 50px;
+    top: 26px;
+    
+}
+
+.about{
+    text-decoration: none;
+    color: var(--color-five);
+    font-size: 26px;
+    position: absolute;
+    left: 1300px;
+    top: 26px;
+    
+}
+
+.about:hover{
+    color: var(--color-three);
+    font-size: 28px;
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+.home:hover{
+    color: var(--color-three);
+    font-size: 28px;
+    transform: scale(1.1);
+    transition: transform 0.3s;
+
+}
+
+
+.title{
+    font-size: 28px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: var(--color-two);
+    position: absolute;
+    left: 140px;
+    top: 136px;
+    width: 680px;
+    height: 103px;
+}
+
+.paragraph{
+    font-size: 26px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: var(--color-three);
+    position: absolute;
+    left: 140px;
+    top: 287px;
+    width: 439px;
+    height: 558px;
+    
+}
+
+.image {
+    position: absolute;
+    left: 867px; 
+    top: 355px;
+}
+
+.image:hover{
+    transform: scale(1.07);
+    transition: transform 0.6s;
+}
+
+footer{
+    background-color: var(--color-four);
+    width: 100%;
+    height: 86px;
+    position: absolute;
+    top: 962px;
+    font-size: 24px;
+    color: var(--color-five);
+    text-align: center;
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    
+    
+}
+
+.whats{
+    position: absolute;
+    left: 461px;
+    top: 808px;
+    width: 50px;
+    height: 50px;
+}
+.insta{
+    position: absolute;
+    left: 861px;
+    top: 808px;
+    width: 50px;
+    height: 50px;
+}
+.face{
+    position: absolute;
+    left: 1261px;
+    top: 808px;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.whats:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+.insta:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+.face:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+
